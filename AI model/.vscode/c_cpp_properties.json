@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kareem/colcon_workspace/install/turtlebot3_gazebo/include/**",
+        "/home/kareem/colcon_workspace/install/turtlebot3_fake_node/include/**",
+        "/home/kareem/colcon_workspace/install/imu_filter_madgwick_secondary/include/**",
+        "/home/kareem/colcon_workspace/install/imu_filter_madgwick/include/**",
+        "/home/kareem/colcon_workspace/install/imu_complementary_filter/include/**",
+        "/opt/ros/foxy/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
