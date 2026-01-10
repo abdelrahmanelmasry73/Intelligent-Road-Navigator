@@ -46,7 +46,7 @@ between them, and whether an emergency vehicle was present or not. The numbers o
 This app is responsible for training the AI model according to the given dataset and conditions you need given in the python code. All the
 mentioned IDE codes, server, and the AI model can be found in the main branche above. 
 
-he final step, all the ELEC is installed. It is classified into two parts. The first is the sensors, LEDs,
+In the final step, all the ELEC is installed. It is classified into two parts. The first is the sensors, LEDs,
 buzzer, and the RIFID device as shown in **fig (2)**. This part is installed on the road because it’s
 responsible for collecting the data and giving signs to the cars. The second part is the wires, breadboard
 and all of its components, PCF8574, and ESP32. This part is housed below the road to make the road
