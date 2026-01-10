@@ -1,0 +1,76 @@
+connections{
+    Ultrasonic{
+        first{
+            trig: D12
+            echo: 34
+        }
+        second{
+            trig: D13
+            echo: D35
+        }
+        third{
+            trig: D25
+            echo: vp
+        }
+        fourth{
+            trig: D26
+            echo: vn
+        }
+    }
+
+    IR {
+        first{
+            signal: D27
+        }
+        second{
+            signal: RX2
+        }
+        third{
+            signal: TX2
+        }
+        fourth{
+            signal: D32
+        }
+    }
+
+    Buzzer{
+        signal: P1 of the second expander
+    }
+
+    RFID {
+        sda: D5
+        sck: D18
+        mosi: D23
+        miso: D19
+        rst: D4
+    }
+
+    PCF8574{
+        first{
+        address: 0x21
+        sda: D21
+        scl: D22
+        P0: Traffic1_Light_Red
+        P1: Traffic1_Light_Yellow
+        P2: Traffic1_Light_Green
+        P3: Traffic2_Light_Red
+        P4: Traffic2_Light_Yellow
+        P5: Traffic2_Light_Green
+        P6: Traffic3_Light_Red
+        P7: Traffic3_Light_Yellow
+    }
+    second{
+        address: 1x20
+        sda: D21
+        scl: D22
+        P0: Traffic3_Light_Green
+        P1: Buzzer
+    }   
+}
+
+arrow led{
+    left: D33
+    right: D14
+}
+
+}
