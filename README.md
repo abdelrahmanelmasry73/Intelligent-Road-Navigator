@@ -68,8 +68,6 @@ organized and not to interrupt it as shown in **fig (3)**.
 
 https://drive.google.com/drive/folders/1tcZg6Zd2pHjUeTGYysAwcVA1jKoerPe1
 
-## You can access the fire base Website through the following link:
-----------------------------------------------------------
 
 ## Contributers:
 + Abd El Rahman M. Elmasry
